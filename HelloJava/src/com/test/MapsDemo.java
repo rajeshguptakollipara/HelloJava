@@ -18,19 +18,8 @@ public class MapsDemo {
 		map.put("108", false);
 		map.put("101", "A1");
 
-		System.out.println("Size of my table is :: "+map.size());
-
 		System.out.println("The complete map is shown below:");
 		System.out.println(map);
-		
-		System.out.println("I want to see all the keys in the table...");
-		
-		System.out.println(map.keySet());
-		
-		for (String key : map.keySet()) {
-			System.out.println(map.get(key));
-		}
-		
 		System.out.println("I have added something to test this file...");
 	}
 	
