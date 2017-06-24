@@ -31,6 +31,7 @@ public class MapsDemo {
 			System.out.println(map.get(key));
 		}
 		
+		System.out.println("I have added something to test this file...");
 	}
 	
 	//Making changes with my prog.
