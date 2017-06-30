@@ -20,6 +20,11 @@ public class Calculator {
 		int multiple = number1 * number2;
 		System.out.println("Multiplication of two numbers is :  "+multiple);
 	}
+
+	public void division(int number1, int number2) {
+		int division = number1/number2;
+		System.out.println("Dvision of two number is : "+division);
+	}
 	
 	// This is a first method from where the Prog will get loaded in Java Memory
 	public static void main(String[] args) {
@@ -31,6 +36,7 @@ public class Calculator {
 		calc.addNumbers(number1, number2);
 		calc.substraction(number1, number2);
 		calc.multiplication(number1, number2);
+		calc.division(number1, number2);
 	}
 }
 
